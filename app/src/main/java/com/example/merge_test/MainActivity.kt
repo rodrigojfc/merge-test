@@ -8,6 +8,17 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
+        println("Creo que empiezo a entender")
+
+
+        var a: Boolean = true
+        var b: Boolean = false
+
+        when(a) {
+            true -> b
+
+
         println("esta es mi linea, no la vayas a chingar")
 
         var seChinga = false
@@ -16,6 +27,7 @@ class MainActivity : AppCompatActivity() {
             println("te chingaste mi linea")
         }else{
             println("todo bien bro")
+
         }
 
     }
